@@ -20,6 +20,14 @@ header {
   background-color: #333;
   padding: 20px;
   color: #fff;
+  text-align: center;
+}
+
+/* Header title styles */
+.header-title {
+  font-size: 28px;
+  font-family: 'Arial Black', sans-serif;
+  margin-top: 10px;
 }
 
 nav ul {
