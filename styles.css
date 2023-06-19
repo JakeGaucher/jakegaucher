@@ -26,6 +26,7 @@ header {
   font-size: 32px;
   margin-bottom: 10px;
   background-color: var(--black-colour);
+  color: var(--primary-color);
   padding: 20px;
   
 }
@@ -33,7 +34,7 @@ header {
 .header-bar {
   width: 100%;
   background-color: var(--secondary-color);
-  
+  colour: (--black-colour);
   margin-bottom: 20px;
   padding: 20px;
 }
