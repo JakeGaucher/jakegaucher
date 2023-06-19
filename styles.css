@@ -34,7 +34,7 @@ header {
 .header-bar {
   width: 100%;
   background-color: var(--secondary-color);
-  colour: (--black-colour);
+  color: var(--black-colour);
   margin-bottom: 20px;
   padding: 20px;
 }
