@@ -20,7 +20,7 @@ p, ul, li {
 header {
   background-color: var(--primary-color);
   padding: 20px;
-  color: var(--secondary-color);
+  color: var(--black-colour);
   text-align: center;
 }
 
@@ -28,6 +28,7 @@ header {
 .header-title {
   font-size: 28px;
   font-family: 'Arial Black', sans-serif;
+  color: var(--black-colour);
   margin-top: 10px;
 }
 
@@ -35,8 +36,8 @@ header {
 .resume-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--accent-color);
-  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--black-colour);
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
