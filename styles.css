@@ -10,9 +10,10 @@ p, ul, li {
 
 /* Define global color variables */
 :root {
-  --primary-color: #333;
-  --secondary-color: #fff;
+  --primary-color: #dcede6;
+  --secondary-color: #e4ede6;
   --accent-color: #ff0000;
+  --black-colour: #060606;
 }
 
 /* Header styles */
