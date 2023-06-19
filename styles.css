@@ -27,13 +27,13 @@ header {
   margin-bottom: 10px;
   background-color: var(--black-colour);
   padding: 20px;
-  color: var(--primary-color);
+  
 }
 
 .header-bar {
   width: 100%;
   background-color: var(--secondary-color);
-  color: var(--black-colour);
+  
   margin-bottom: 20px;
   padding: 20px;
 }
@@ -63,7 +63,7 @@ nav ul li:last-child {
   font-size: 28px;
   font-family: 'Helvetica Light', sans-serif;
  /* font-weight: lighter; */
-  color: var(--black-colour);
+  color: var(--primary-color);
   margin-top: 10px;
 }
 
