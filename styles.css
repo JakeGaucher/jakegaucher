@@ -8,6 +8,40 @@ p, ul, li {
   box-sizing: border-box;
 }
 
+/* Define global color variables */
+:root {
+  --primary-color: #333;
+  --secondary-color: #fff;
+  --accent-color: #ff0000;
+}
+
+/* Header styles */
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+/* Header title styles */
+.header-title {
+  font-size: 28px;
+  font-family: 'Arial Black', sans-serif;
+  margin-top: 10px;
+}
+
+/* Header button styles */
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
 /* Set default font and background */
 body {
   font-family: 'Roboto', Arial, sans-serif;
@@ -15,32 +49,6 @@ body {
   color: #333;
 }
 
-/* Header styles */
-header {
-  background-color: #333;
-  /*padding: 20px;*/
-  color: #fff;
-  
-}
-
-/* Header title styles */
-.header-title {
-  font-size: 28px;
-  font-family: 'Arial', sans-serif;
-  text-align: center;
-}
-
-/* Resume button styles */
-.resume-button {
-  display: inline-block;
-  /*padding: 10px 20px; */
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-}
 
 nav ul {
   list-style: none;
