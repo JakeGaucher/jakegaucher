@@ -36,7 +36,7 @@ header {
   background-color: var(--primary-color);
   color: var(--black-colour);
   margin-bottom: 10px;
-  padding: 20px;
+  padding: 40px;
 }
 
 nav ul {
@@ -66,7 +66,7 @@ nav ul li:last-child {
   font-family: 'Helvetica Light', sans-serif;
  /* font-weight: lighter; */
   color: #f8f8f8;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 /* Header button styles */
