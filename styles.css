@@ -158,6 +158,9 @@ h2 {
   filter: blur(2px);
 }
 
+/* Apply hover effect to images */
+.project-link:hover {
+  transform: scale(0.95); /* Decrease size on hover */
 /* Optional: Styling for the scrollbar */
 .scrolling-bar::-webkit-scrollbar {
   width: 8px;
