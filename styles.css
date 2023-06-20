@@ -132,6 +132,46 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Style for Project Scroll Bar*/
+
+.scrolling-bar {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #000 #999;
+}
+
+.image-container {
+  flex: 0 0 33.33%;
+  padding: 10px;
+  scroll-snap-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  filter: blur(0);
+  transition: filter 0.3s ease;
+}
+
+.image-container:hover img {
+  filter: blur(2px);
+}
+
+/* Optional: Styling for the scrollbar */
+.scrolling-bar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrolling-bar::-webkit-scrollbar-track {
+  background-color: #999;
+}
+
+.scrolling-bar::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+
 /* Footer styles */
 footer {
   background-color: #333;
