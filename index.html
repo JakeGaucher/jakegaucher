@@ -38,23 +38,30 @@
     <section id="projects">  <!-- Your projects content goes here -->
       <h2>Projects</h2>
      
-     <div class="scrolling-bar">
-       <div class="image-container">
-         <a href="projects.html">
-           <img src="image1.png" alt="Project 1">
-         </a>
+     <div class="project-scroll-container">
+       <div class="project-scroll">
+         <div class="project-link">
+           <a href="projects.html">
+             <img src="image1.png" alt="Project 1">
+           </a>
+         </div>
+         <div class="project-link">
+           <a href="projects.html">
+             <img src="image2.png" alt="Project 2">
+           </a>
+         </div>
+         <div class="project-link">
+           <a href="projects.html">
+             <img src="image3.png" alt="Project 3">
+           </a>
+         </div>
+         <!-- Add more project links as needed -->
        </div>
-       <div class="image-container">
-         <a href="projects.html">
-           <img src="image2.png" alt="Project 2">
-         </a>
+       <div class="project-scroll-arrows">
+         <div class="scroll-arrow left-arrow">&lt;</div>
+         <div class="scroll-arrow right-arrow">&gt;</div>
        </div>
-       <div class="image-container">
-         <a href="projects.html">
-           <img src="image3.png" alt="Project 3">
-         </a>
-       </div>
-       <!-- Add more image containers as needed -->
+     </div>
        
      </div>
      
@@ -109,17 +116,34 @@
 
 
 <script>
-    // Java for smooth behaviour scroll bar
-    const links = document.querySelectorAll('.image-container a');
-    links.forEach((link) => {
-      link.addEventListener('click', (event) => {
-        event.preventDefault();
-        const target = document.querySelector(event.target.getAttribute('href'));
-        target.scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
+   //Java script for project bar
+   const projectScroll = document.querySelector('.project-scroll');
+    const leftArrow = document.querySelector('.left-arrow');
+    const rightArrow = document.querySelector('.right-arrow');
+    const projectLinks = document.querySelectorAll('.project-link');
+
+    let scrollPosition = 0;
+
+    // Set up click event handlers for the arrows
+    leftArrow.addEventListener('click', scrollLeft);
+    rightArrow.addEventListener('click', scrollRight);
+
+    function scrollLeft() {
+      scrollPosition -= projectScroll.offsetWidth;
+      if (scrollPosition < 0) {
+        scrollPosition = 0;
+      }
+      projectScroll.style.transform = `translateX(-${scrollPosition}px)`;
+    }
+
+    function scrollRight() {
+      scrollPosition += projectScroll.offsetWidth;
+      const maxScroll = projectScroll.scrollWidth - projectScroll.offsetWidth;
+      if (scrollPosition > maxScroll) {
+        scrollPosition = maxScroll;
+      }
+      projectScroll.style.transform = `translateX(-${scrollPosition}px)`;
+    }
   </script>
 </body>
 
