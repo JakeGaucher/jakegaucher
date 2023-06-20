@@ -35,7 +35,7 @@ header {
   width: 100%;
   background-color: var(--primary-color);
   color: var(--black-colour);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 20px;
 }
 
@@ -114,7 +114,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #eaeaea;
+  color: var(--black-colour);
 }
 
 /* Main content styles */
@@ -147,7 +147,7 @@ h2 {
   top: 0;
   height: 100%;
   width: 50px; /* Adjust width as needed */
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust transparency as needed */
   display: flex;
   align-items: center;
   justify-content: center;
