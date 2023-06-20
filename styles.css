@@ -134,26 +134,28 @@ h2 {
 
 /* Style for Project Scroll Bar*/
 
-.scrolling-bar {
+.project-scroll-container {
+  /* Add necessary styles for the container */
+  overflow-x: hidden;
+}
+
+.project-scroll {
+  /* Add necessary styles for the scrollable container */
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
-  scrollbar-color: #000 #999;
 }
 
-.image-container {
-  flex: 0 0 33.33%;
-  padding: 10px;
-  scroll-snap-align: center;
+.project-link {
+  /* Add necessary styles for each project link */
+  flex: 0 0 calc(100% / 3); /* Divide the container width equally among 3 images */
 }
 
-.image-container img {
-  width: 100%;
-  filter: blur(0);
-  transition: filter 0.3s ease;
+.project-link img {
+  /* Add necessary styles for the project images */
+  max-width: 100%;
+  height: auto;
 }
 
+/* Add styles for the scroll arrows if needed */
 .image-container:hover img {
   filter: blur(2px);
 }
