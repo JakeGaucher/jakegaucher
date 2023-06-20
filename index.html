@@ -15,7 +15,7 @@
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="projects.html">Projects</a></li> <!-- Link to the Projects Page -->
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="JGaucher_Resume2023.pdf" target="_blank">Resume</a></li> <!-- Link to the resume PDF file -->
@@ -26,7 +26,7 @@
   </header>
 
   <main>
-    <section id="about">
+    <section id="about">  <!-- About content goes here -->
       <h2>About Me</h2>
       <p>
 		I am a UVic Mechanical Engineering Student who excels at balancing success in academics, work, and sport.
@@ -35,20 +35,39 @@
 				</p>
     </section>
 
-    <section id="projects">
+    <section id="projects">  <!-- Your projects content goes here -->
       <h2>Projects</h2>
-      <!-- Your projects content goes here -->
+     
     </section>
 
-    <section id="skills">
+    <section id="skills">  <!-- Your skills content goes here -->
       <h2>Skills</h2>
-      <!-- Your skills content goes here -->
+     
+   
     </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
+    
+      <section id="contact"> <!-- Contact Form-->
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
       <!-- Your contact form or information goes here -->
-    </section>
+
   </main>
 
   <footer>
