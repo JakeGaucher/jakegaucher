@@ -104,6 +104,23 @@
 
 
 	</footer>
+
+
+
+<script>
+    // Java for smooth behaviour scroll bar
+    const links = document.querySelectorAll('.image-container a');
+    links.forEach((link) => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const target = document.querySelector(event.target.getAttribute('href'));
+        target.scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </body>
+
 
 </html>
