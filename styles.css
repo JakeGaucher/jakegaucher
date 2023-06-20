@@ -136,46 +136,45 @@ h2 {
 
 .project-scroll-container {
   /* Add necessary styles for the container */
-  overflow-x: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .project-scroll {
   /* Add necessary styles for the scrollable container */
-  display: flex;
+  display: inline-block;
 }
 
 .project-link {
   /* Add necessary styles for each project link */
-  flex: 0 0 calc(100% / 3); /* Divide the container width equally among 3 images */
+  display: inline-block;
+  width: calc(100% / 3); /* Divide the container width equally among 3 images */
+  text-align: center; /* Optional: Center-align the image within the link */
 }
 
 .project-link img {
   /* Add necessary styles for the project images */
   max-width: 100%;
   height: auto;
+  transition: transform 0.2s; /* Optional: Add a transition effect */
 }
+
+.project-link:hover img {
+  /* Optional: Apply a hover effect */
+  transform: scale(0.95);
+}
+
 
 /* Add styles for the scroll arrows if needed */
-.image-container:hover img {
-  filter: blur(2px);
-}
+
 
 /* Apply hover effect to images */
+
 .project-link:hover {
-  transform: scale(0.95); /* Decrease size on hover */
-/* Optional: Styling for the scrollbar */
-.scrolling-bar::-webkit-scrollbar {
-  width: 8px;
-}
+  transform: scale(0.95);
+  filter: blur(2px);
+  /* Decrease size on hover */
 
-
-.scrolling-bar::-webkit-scrollbar-track {
-  background-color: #999;
-}
-
-.scrolling-bar::-webkit-scrollbar-thumb {
-  background-color: #000;
-}
 
 
 /* Footer styles */
