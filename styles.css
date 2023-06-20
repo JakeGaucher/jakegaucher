@@ -169,6 +169,7 @@ h2 {
 .project-scroll {
   /* Add necessary styles for the scrollable container */
   display: inline-block;
+  vertical-align: top; /* Ensure alignment with the arrows */
 }
 
 .project-link {
