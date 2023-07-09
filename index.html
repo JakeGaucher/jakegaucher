@@ -20,8 +20,15 @@
         // Use the projectNames variable in your JavaScript code
         // ...
 
-      </script>
+
     
+    // Update the project names dynamically
+    var projectLinks = document.querySelectorAll('.project-link');
+    projectLinks.forEach(function(link, index) {
+      var projectName = link.querySelector('.project-name');
+      projectName.textContent = projectNames[index];
+    });
+    </script>
     
   <header>
       <header>
@@ -61,19 +68,19 @@
          <div class="project-link">
            <a href="projects.html">
              <img src="image1.png" alt="Project 1">
-                 <span class="projectNames[0]"> </span>
+                 <span class="project-name"> </span>
            </a>
          </div>
          <div class="project-link">
            <a href="projects.html">
              <img src="image2.png" alt="Project 2">
-                 <span class="projectNames[1]"> </span>
+                 <span class="project-name"> </span>
            </a>
          </div>
          <div class="project-link">
            <a href="projects.html">
              <img src="image3.png" alt="Project 3">
-                 <span class="projectNames[2]"> </span>
+                 <span class="project-name"> </span>
            </a>
          </div>
          <!-- Add more project links as needed -->
