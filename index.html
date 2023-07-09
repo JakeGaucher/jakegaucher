@@ -24,7 +24,7 @@
           var projectLinks = document.querySelectorAll('.project-link');
           projectLinks.forEach(function(link, index) {
             var projectName = link.querySelector('.project-name');
-            projectName.textContent = projectNames[index-1];
+            projectName.textContent = projectNames[index + 1 ];
           });
         });
     </script>
