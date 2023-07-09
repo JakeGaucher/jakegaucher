@@ -205,7 +205,10 @@ h2 {
   .project-link {
     /* Add necessary styles for the project link */
     position: relative;
-    text-align: center; /* Center the content horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .project-name {
@@ -224,6 +227,7 @@ h2 {
 
   .project-link:hover .project-name {
     display: block; /* Show the project name on hover */
+    transform: translateY(50%);
   }
 
 
