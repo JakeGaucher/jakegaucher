@@ -20,14 +20,13 @@
         // Use the projectNames variable in your JavaScript code
         // ...
 
-
-    
-    // Update the project names dynamically
-    var projectLinks = document.querySelectorAll('.project-link');
-    projectLinks.forEach(function(link, index) {
-      var projectName = link.querySelector('.project-name');
-      projectName.textContent = projectNames[index];
-    });
+        document.addEventListener('DOMContentLoaded', function() {
+          var projectLinks = document.querySelectorAll('.project-link');
+          projectLinks.forEach(function(link, index) {
+            var projectName = link.querySelector('.project-name');
+            projectName.textContent = projectNames[index];
+          });
+        });
     </script>
     
   <header>
