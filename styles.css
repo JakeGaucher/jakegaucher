@@ -202,6 +202,28 @@ h2 {
   filter: blur(2px);
   /* Decrease size on hover */
 
+  .project-link {
+    /* Add necessary styles for the project link */
+    position: relative;
+  }
+
+  .project-name {
+    /* Add necessary styles for the project name */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* Hide the project name by default */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .project-link:hover .project-name {
+    display: block; /* Show the project name on hover */
+  }
 
 
 /* Footer styles */
