@@ -17,10 +17,8 @@ p, ul, li {
 }
 
 a {
-      text-decoration: none;
+  all: unset;
 }
-
-a { color: inherit; }
 
 
 /* Header styles */
