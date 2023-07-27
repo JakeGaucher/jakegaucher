@@ -132,51 +132,14 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* Style for Project Scroll Bar*/
-
-.project-scroll-container {
-  /* Add necessary styles for the container */
-  position: relative;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-.scroll-arrow {
-  /* Add necessary styles for the scroll arrows */
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 50px; /* Adjust width as needed */
-  background-color: rgba(0, 0, 0, 0.3); /* Adjust transparency as needed */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.scroll-left {
-  /* Position the left arrow to the left of the first image */
-  left: 0;
-}
-
-.scroll-right {
-  /* Position the right arrow to the right of the last image */
-  right: 0;
-}
-
-.project-scroll {
-  /* Add necessary styles for the scrollable container */
-  display: inline-block;
-  vertical-align: top; /* Ensure alignment with the arrows */
-}
 
 .project-link {
-  /* Add necessary styles for each project link */
-  display: inline-block;
-  width: calc(100% / 3); /* Divide the container width equally among 3 images */
-  text-align: center; /* Optional: Center-align the image within the link */
+    /* Add necessary styles for each project link */
+    display: inline-block;
+    width: calc(100% / 3); /* Divide the container width equally among 3 images */
+    text-align: center; /* Optional: Center-align the image within the link */
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 .project-link img {
