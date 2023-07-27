@@ -152,6 +152,8 @@ h2 {
 .project-link:hover img {
   /* Optional: Apply a hover effect */
   transform: scale(0.95);
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 
@@ -207,6 +209,8 @@ h2 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: var(--primary-color);
+    text-decoration: none;
   }
 
   .project-name {
@@ -221,6 +225,8 @@ h2 {
     padding: 10px;
     text-align: center;
     font-size: 14px;
+    color: var(--primary-color);
+    text-decoration: none;
   }
 
 /* Footer styles */
