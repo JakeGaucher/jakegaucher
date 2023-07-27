@@ -16,25 +16,12 @@ p, ul, li {
   --black-colour: #060606;
 }
 
-a:link {
-     text-decoration: none;
-     color: var(--primary-color);
+a {
+      text-decoration: none;
 }
 
-a:visited {
-     text-decoration: none;
-     color: var(--primary-color);
-}
+a { color: inherit; }
 
-a:hover {
-     text-decoration: none;
-     color: var(--primary-color);
-}
-
-a:active {
-     text-decoration: none;
-     color: var(--primary-color);
-}
 
 /* Header styles */
 header {
