@@ -16,6 +16,22 @@ p, ul, li {
   --black-colour: #060606;
 }
 
+a:link {
+     text-decoration: none;
+}
+
+a:visited {
+     text-decoration: none;
+}
+
+a:hover {
+     text-decoration: none;
+}
+
+a:active {
+     text-decoration: none;
+}
+
 /* Header styles */
 header {
  
@@ -36,7 +52,7 @@ header {
   background-color: var(--primary-color);
   color: var(--black-colour);
   margin-bottom: 10px;
-  padding: 40px;
+  padding: 20px;
 }
 
 nav ul {
