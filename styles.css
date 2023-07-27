@@ -16,10 +16,11 @@ p, ul, li {
   --black-colour: #060606;
 }
 
-a {
-  all: unset;
+/* Remove link styles for project titles */
+.project-info h3 a {
+  color: inherit;
+  text-decoration: none;
 }
-
 
 /* Header styles */
 header {
