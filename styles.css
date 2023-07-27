@@ -217,7 +217,7 @@ h2 {
     transform: translate(-50%, -50%);
     display: none; /* Hide the project name by default */
     background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    color: var(--primary-color);
     padding: 10px;
     text-align: center;
     font-size: 14px;
