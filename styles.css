@@ -199,7 +199,7 @@ h2 {
 .project-image {
   /* Add necessary styles for the project image */
   flex: 1; /* Take 1/2 of the available width */
-  max-width: 200px; /* Adjust the image size as needed */
+  max-width: 500px; /* Adjust the image size as needed */
 }
 
 .project-image img {
