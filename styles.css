@@ -206,6 +206,7 @@ h2 {
   /* Optional: Style the project image */
   display: block;
   width: 100%;
+  max-width: 500px; /* Adjust the value to increase the image size */
   height: auto;
   border: 1px solid #ddd; /* Optional: Add a border around the image */
   border-radius: 5px; /* Optional: Add rounded corners */
