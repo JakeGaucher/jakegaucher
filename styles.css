@@ -199,14 +199,13 @@ h2 {
 .project-image {
   /* Add necessary styles for the project image */
   flex: 1; /* Take 1/2 of the available width */
-  max-width: 1500px; /* Adjust the image size as needed */
+  max-width: 2000px; /* Adjust the image size as needed */
 }
 
 .project-image img {
   /* Optional: Style the project image */
   display: block;
   width: 100%;
-  
   height: auto;
   border: 1px solid #ddd; /* Optional: Add a border around the image */
   border-radius: 5px; /* Optional: Add rounded corners */
