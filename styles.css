@@ -87,6 +87,7 @@ nav ul li:last-child {
 /* Set default font and background */
 body {
   font-family: 'Roboto', Arial, sans-serif;
+  font-size: 20px;
   background-color: #f8f8f8;
   color: #333;
   
@@ -144,7 +145,7 @@ h2 {
   background-color: #060606; /* Add the desired background color */
   border: 0.5px solid #060606 ; /* Optional: Add a border */
   border-radius: 10px; /* Add rounded corners */
-  margin: 0 20px; /* Space the border 20px away from the sides */
+  margin: 0 0px; /* Space the border 20px away from the sides */
   margin-bottom: 20px; /* Optional: Add some spacing between project containers */
   padding: 1px;  /* Optional: Add padding to the project containers */
 }
