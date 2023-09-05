@@ -111,7 +111,7 @@ nav ul li:last-child {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 5px;
+  padding: 20px;
   transition: color 0.3s ease;
 }
 
@@ -131,6 +131,7 @@ section {
 
 h2 {
   font-size: 24px;
+  margin: 0 20px; /* Space the ?text? 20px away from the sides */
   margin-bottom: 10px;
 }
 
