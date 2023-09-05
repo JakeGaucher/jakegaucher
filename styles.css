@@ -194,7 +194,8 @@ h2 {
 
 .image-full {
     /* Add necessary styles for the full size images */
-    max-width: 70%;
+    display: block;
+    width: 70%;
     height: auto;
     
 }
