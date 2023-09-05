@@ -154,6 +154,7 @@ h2 {
 .project-info h3 {
     /* margin: 0;  Optional: Remove any default margins on <h3> elements */
   color: #000; /* Choose the desired color for project titles */
+  text-decoration: none;
 }
 
 /* Remove link styles for project titles */
