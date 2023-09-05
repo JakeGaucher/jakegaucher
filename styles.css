@@ -192,6 +192,12 @@ h2 {
 }
 
 
+.image-full {
+    /* Add necessary styles for the full size images */
+    max-width: 100%;
+    height: auto;
+    
+}
 /* Add styles for the scroll arrows if needed */
 
 .project-showcase {
