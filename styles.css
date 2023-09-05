@@ -24,12 +24,13 @@ header {
   text-align: center;
 }
 
+/* Style for header bar text*/
 .header-title {
   font-size: 32px;
   margin-bottom: 10px;
   background-color: var(--black-colour);
   color: var(--primary-color);
-  padding: 20px;
+  padding: 10px;
   
 }
 
