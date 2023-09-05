@@ -141,7 +141,7 @@ h2 {
   border-radius: 10px; /* Add rounded corners */
   margin: 0 20px; /* Space the border 20px away from the sides */
   margin-bottom: 20px; /* Optional: Add some spacing between project containers */
-  /* padding: 20px;  Optional: Add padding to the project containers */
+  padding: 1px;  /* Optional: Add padding to the project containers */
 }
 
 /* Reset link styles for project titles */
