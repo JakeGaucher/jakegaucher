@@ -136,8 +136,8 @@ h2 {
 
 /* Style for the project containers */
 .project-container {
-  background-color: var(--accent-color); /* Add the desired background color */
-  border: 1px solid #ddd; /* Optional: Add a border */
+  background-color: #060606; /* Add the desired background color */
+  border: 2px solid #ddd; /* Optional: Add a border */
   border-radius: 10px; /* Add rounded corners */
   margin: 0 20px; /* Space the border 20px away from the sides */
   margin-bottom: 20px; /* Optional: Add some spacing between project containers */
