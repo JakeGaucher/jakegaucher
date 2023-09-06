@@ -235,9 +235,16 @@ h2 {
   height: auto;
   border: 1px solid #ddd; /* Optional: Add a border around the image */
   border-radius: 5px; /* Optional: Add rounded corners */
-  padding: 20px;
+  
 }
 
+.full-image img {
+  /* Optional: Style the project image */
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
 
 
 /* Apply hover effect to images */
