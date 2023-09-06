@@ -277,10 +277,10 @@ h2 {
   }
 
   /* Style for the video element */
-  video {
-    max-width: 50%;
+  Myvideo {
+    max-width: 100%;
     display: block;
-    margin: 0 auto; /* Center the video horizontally */
+    margin: 20 auto; /* Center the video horizontally */
   }
   
 /* Footer styles */
