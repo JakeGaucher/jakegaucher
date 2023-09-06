@@ -281,6 +281,7 @@ h2 {
     max-width: 100%;
     display: block;
     margin: 20 auto; /* Center the video horizontally */
+    object-fit: contain;
   }
   
 /* Footer styles */
