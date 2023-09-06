@@ -191,14 +191,6 @@ h2 {
   text-decoration: none;
 }
 
-
-.image-full {
-    /* Add necessary styles for the full size images */
-    display: block;
-    width: 70%;
-    height: auto;
-    padding: 20px;
-    
     
 }
 /* Add styles for the scroll arrows if needed */
@@ -245,6 +237,7 @@ h2 {
   height: auto;
   padding: 20px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 
