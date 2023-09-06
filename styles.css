@@ -232,12 +232,12 @@ h2 {
 
 .full-image img {
   /* Optional: Style the project image */
-  display: block;
+  
   width: 70%;
   height: auto;
   padding: 20px;
   margin-bottom: 20px;
-  text-align: center;
+  align-items: center;
 }
 
 
