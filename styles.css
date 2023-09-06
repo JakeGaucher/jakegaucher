@@ -113,10 +113,10 @@ nav ul li:last-child {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   transition: color 0.3s ease;
   border: 1px solid #060606;
-  border-radius: 1px; 
+  border-radius: 1px;
 }
 
 nav ul li a:hover {
