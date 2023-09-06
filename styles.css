@@ -235,6 +235,7 @@ h2 {
   height: auto;
   border: 1px solid #ddd; /* Optional: Add a border around the image */
   border-radius: 5px; /* Optional: Add rounded corners */
+  padding: 20px;
 }
 
 
