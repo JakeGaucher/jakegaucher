@@ -278,7 +278,7 @@ h2 {
 
   /* Style for the video element */
   video {
-    max-width: 100%;
+    max-width: 50%;
     display: block;
     margin: 0 auto; /* Center the video horizontally */
   }
