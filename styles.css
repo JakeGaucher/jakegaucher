@@ -276,6 +276,13 @@ h2 {
     text-decoration: none;
   }
 
+  /* Style for the video element */
+  video {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Center the video horizontally */
+  }
+  
 /* Footer styles */
 footer {
   background-color: var(--secondary-color);
