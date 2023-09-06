@@ -192,7 +192,7 @@ h2 {
 }
 
     
-}
+
 /* Add styles for the scroll arrows if needed */
 
 .project-showcase {
@@ -232,7 +232,6 @@ h2 {
 
 .full-image img {
   /* Optional: Style the project image */
-  
   width: 70%;
   height: auto;
   padding: 20px;
