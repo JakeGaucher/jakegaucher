@@ -146,7 +146,7 @@ h2 {
 .project-container {
   background-color: #060606; /* Add the desired background color */
   border: 1px solid #060606 ; /* Optional: Add a border */
-  border-radius: 5px; /* Add rounded corners */
+  border-radius: 50%; /* Add rounded corners */
   margin: 0 0px; /* Space the border 20px away from the sides */
   margin-bottom: 20px; /* Optional: Add some spacing between project containers */
   padding: 1px;  /* Optional: Add padding to the project containers */
