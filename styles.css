@@ -142,6 +142,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+.video-container {
+  max-width: auto;
+  /* Add any other styling you need for this section */
+}
+
+
 /* Style for the project containers */
 .project-container {
   background-color: #060606; /* Add the desired background color */
@@ -283,10 +289,7 @@ h2 {
     max-height: 100%; max-width: 100%; margin: auto;
   }
   
-  .video-container {
-    max-width: auto;
-    /* Add any other styling you need for this section */
-  }
+
   /* Footer styles */
 footer {
   background-color: var(--secondary-color);
