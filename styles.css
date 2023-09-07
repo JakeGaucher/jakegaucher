@@ -125,7 +125,7 @@ nav ul li a:hover {
 
 /* Main content styles */
 main {
-  margin: 50px;
+  margin: 100px;
 }
 
 /* Style for "About" text*/
@@ -284,12 +284,9 @@ h2 {
   }
   
   .video-container {
-    display: block; /* Remove any default inline styles */
-    max-width: 10%; /* Make sure the video doesn't exceed the viewport width */
-    margin: 0 auto; /* Center the video horizontally */
-    text-align: center; /* Center-align content horizontally */
+    max-width: 100%;
+    /* Add any other styling you need for this section */
   }
-  
   /* Footer styles */
 footer {
   background-color: var(--secondary-color);
