@@ -283,6 +283,12 @@ h2 {
     max-height: 100%; max-width: 100%; margin: auto;
   }
   
+  .video-container {
+    max-width: 100%; /* Make sure the video doesn't exceed the viewport width */
+    display: block; /* Remove any default inline styles */
+    margin: 0 auto; /* Center the video horizontally */
+  }
+  
   /* Footer styles */
 footer {
   background-color: var(--secondary-color);
