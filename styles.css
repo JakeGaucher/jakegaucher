@@ -127,7 +127,7 @@ nav ul li a:hover {
 main {
   margin: 50px;
   margin-left: 150px;
-  margin-right: 150px; 
+  margin-right: 150px;
 }
 
 /* Style for "About" text*/
@@ -135,7 +135,7 @@ section {
   
   margin: 0 100px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
