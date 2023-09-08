@@ -192,6 +192,7 @@ h2 {
   max-width: 100%;
   height: auto;
   transition: transform 0.2s; /* Optional: Add a transition effect */
+  align-items: center;
 }
 
 .project-link:hover img {
