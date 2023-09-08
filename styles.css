@@ -7,6 +7,8 @@ p, ul, li {
   padding: 20;
   box-sizing: border-box;
   text-decoration: none;
+  color: var(--black-colour);
+  
 }
 
 /* Define global color variables */
