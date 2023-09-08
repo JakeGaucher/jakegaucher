@@ -274,7 +274,7 @@ h2 {
 
 .full-image img {
   /* Optional: Style the project image */
-  width: 70%;
+  width: 100%;
   height: auto;
   padding: 20px;
   margin-bottom: 20px;
