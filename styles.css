@@ -23,6 +23,9 @@ p, ul, li {
 }
 
 
+
+
+
 /* Header styles */
 header {
  
@@ -49,6 +52,7 @@ header {
   padding: 10px;
 
 }
+
 
 
 nav ul {
@@ -216,13 +220,21 @@ h2 {
   text-decoration: none;
 }
 
-    
+/* use for two side by side images*/
+.image-double-container {
+  display: inline-block;
+}
+
+.image-double-container img {
+  flex 1; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
 
 /* Add styles for the scroll arrows if needed */
 
 .project-showcase {
   /* Add necessary styles for the project showcase */
-  display: flex;
+  flex: 1;
   align-items: center;
   background-color: #f8f8f8; /* Optional: Add background color */
   padding: 20px;
