@@ -46,6 +46,7 @@ header {
   /* width: 100%; */
   background-color: var(--primary-color);
   color: var(--black-colour);
+  border-left: 52px solid var(--primary-color); /* Add a left border with the desired color and width */
   margin-bottom: 10px;
   padding: 10px;
 }
