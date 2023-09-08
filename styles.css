@@ -23,9 +23,6 @@ p, ul, li {
 }
 
 
-
-
-
 /* Header styles */
 header {
  
@@ -41,11 +38,8 @@ header {
   padding: 10px;
   
 }
-.header-title-left{
-    border-left: 52px solid var(--black-colour); /* Add a left border with the desired color and width */
-    position: relative; /* Add a relative position to the header bar */
-  
-      min-height: 100%; /* Set a minimum height of 100% of the viewport height */
+
+
       
 .header-bar {
   /* width: 100%; */
@@ -56,12 +50,6 @@ header {
 
 }
 
-.header-bar-left{
-    border-left: 52px solid var(--primary-color); /* Add a left border with the desired color and width */
-    position: relative; /* Add a relative position to the header bar */
-    padding-left: 100px;
-      min-height: 100%; /* Set a minimum height of 100% of the viewport height */
-}
 
 nav ul {
   list-style: none;
