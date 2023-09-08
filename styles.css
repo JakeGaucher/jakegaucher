@@ -6,6 +6,7 @@
   --secondary-color: #e4ede6;
   --accent-color: #ff0000;
   --black-colour: #060606;
+  --grey-colour: #878787;
 }
 
 
@@ -118,7 +119,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-  color: #fff;
+  color: var(--grey-colour);
   text-decoration: none;
   padding: 5px;
   transition: color 0.3s ease;
