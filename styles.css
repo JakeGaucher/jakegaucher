@@ -200,7 +200,7 @@ h2 {
 
 .project-link img {
   /* Add necessary styles for the project images */
-  max-width: 100%;
+  max-width: auto;
   height: auto;
   transition: transform 0.2s; /* Optional: Add a transition effect */
   text-align: center;
