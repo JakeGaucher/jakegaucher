@@ -159,7 +159,7 @@ h2 {
 }
 
 .video-container {
-  max-width: 1000px;
+  max-width: 50vh;
   /* Add any other styling you need for this section */
 }
 
@@ -224,14 +224,11 @@ h2 {
 .image-double-container {
   display: inline-block;
   width: calc(100%/2);
-  
-
 }
 
 .image-double-container img {
   max-width: 50%;
   height: auto; /* Maintain aspect ratio */
- 
 }
 
 /* Add styles for the scroll arrows if needed */
