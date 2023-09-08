@@ -234,7 +234,7 @@ h2 {
 
 .project-showcase {
   /* Add necessary styles for the project showcase */
-  flex: 1;
+  display: flex;
   align-items: center;
   background-color: #f8f8f8; /* Optional: Add background color */
   padding: 20px;
