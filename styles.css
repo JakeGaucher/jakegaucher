@@ -1,4 +1,14 @@
 
+
+/* Define global color variables */
+:root {
+  --primary-color: #dcede6;
+  --secondary-color: #e4ede6;
+  --accent-color: #ff0000;
+  --black-colour: #060606;
+}
+
+
 /* Reset some default styles */
 body,
 h1, h2, h3, h4, h5, h6,
@@ -11,13 +21,7 @@ p, ul, li {
   
 }
 
-/* Define global color variables */
-:root {
-  --primary-color: #dcede6;
-  --secondary-color: #e4ede6;
-  --accent-color: #ff0000;
-  --black-colour: #060606;
-}
+
 
 
 
