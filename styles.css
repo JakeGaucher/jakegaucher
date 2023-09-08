@@ -225,7 +225,7 @@ h2 {
   display: inline-block;
 }
 
-.image-double-container img {
+.image-double-container img1 {
   flex 1; /* Adjust as needed */
   height: auto; /* Maintain aspect ratio */
 }
