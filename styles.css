@@ -227,7 +227,7 @@ h2 {
   padding: 20px;
 }
 
-.image-double-container img1 {
+.image-double-container ima {
   flex 1; /* Adjust as needed */
   height: auto; /* Maintain aspect ratio */
 }
