@@ -229,6 +229,7 @@ h2 {
   /* Add necessary styles for the project image */
   flex: 1; /* Take 1/2 of the available width */
   max-width: 2000px; /* Adjust the image size as needed */
+  align-items: center; 
 }
 
 .project-image img {
