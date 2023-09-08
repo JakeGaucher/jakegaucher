@@ -222,7 +222,9 @@ h2 {
 
 /* use for two side by side images*/
 .image-double-container {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .image-double-container img1 {
