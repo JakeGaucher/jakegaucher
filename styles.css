@@ -49,6 +49,8 @@ header {
   border-left: 52px solid var(--primary-color); /* Add a left border with the desired color and width */
   margin-bottom: 10px;
   padding: 10px;
+  position: relative; /* Add a relative position to the header bar */
+    min-height: 100vh; /* Set a minimum height of 100% of the viewport height */
 }
 
 nav ul {
